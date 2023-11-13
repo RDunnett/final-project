@@ -7,20 +7,26 @@
         <title>Final Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.typekit.net/syf4urx.css">
         <link rel="stylesheet" href="css/custom.css.">
     </head>
     <body>
-        <header>
-            <div class="wrapper"">
-                <h2>Honest work</h2>
-                
-                <h2>For a Fair Price<h2>
-            </div>
-            <div class="wrapper">
-                <img src="images/jm-logo.png" alt="jm-logo">
-                <h1>J.M. Automotive</h1>
-            </div>
+        <header class="container-fluid">
+            <div class="container bg-primary text-white row justify-content-start">
+                <div class="col-lg-2">
+                    <img src="images/jm-logo.png" class="img-fluid" alt="jm-logo">
+                </div>
+                <div class="col-lg-2 d-flex align-items-bottom">
+                    <h1>J.M. Automotive</h1>
+                </div>
+            
+                <div class="row justify-content-end">
+                    <div class="col-lg-6 d-flex">
+                        <h2>Honest work, For a fair price</h2>
+                    </div>
+                </div>
+            </div> 
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -33,6 +39,59 @@
                 </ul>
             </nav>
         </header>
+
+        <main>
+            <section class="banner">
+                <img src="images/car.jpg"  alt="Mechanic fixing a car">
+                <h1>Welcome!</h1>
+            </section>
+            <section class="container row">
+                <div class="col-lg-6 g-2">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/car-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/car-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/other-car.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="py-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    </div>
+                    <div class="py-2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 g-2">
+                        <p class="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                        <img src="images/other-car.jpg" alt="other-car">
+                        <h3>Why book with us?</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
+                </div>
+            </section>
+            <footer class="bg-dark container-fluid">
+                <small class="text-white text-center">&copy;2023 R.E.D Studios, all rights reserved</small>
+                <img src="images/facebook-icon.png" alt="facebook-icon">
+            </footer>
+        </main>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
