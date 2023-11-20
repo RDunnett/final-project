@@ -14,8 +14,17 @@ $font-family-base: 'Gill Sans Nova', sans-serif;
 
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
 
 
 // Then add additional custom code here
+header {
+    background-color: #FF891D;
+}
+.banner img{
+    min-width: 100px;
+    min-height: 200px;
+}
 
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
