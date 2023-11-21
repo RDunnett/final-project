@@ -2,7 +2,7 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary: #FF891D;
+$orange: #FF891D;
 $secondary: #F46300;
 $dark:#000;
 $light:#fff;
@@ -17,14 +17,16 @@ $font-family-base: 'Gill Sans Nova', sans-serif;
 
 
 // Then add additional custom code here
-header {
+body > header {
     background-color: #FF891D;
 }
-.banner img{
-    min-width: 100px;
-    min-height: 200px;
-}
+
 
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+.banner-rd img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
