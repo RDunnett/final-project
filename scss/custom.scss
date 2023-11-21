@@ -2,7 +2,7 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$orange: #FF891D;
+$primary: #FF891D;
 $secondary: #F46300;
 $dark:#000;
 $light:#fff;
@@ -17,11 +17,6 @@ $font-family-base: 'Gill Sans Nova', sans-serif;
 
 
 // Then add additional custom code here
-body > header {
-    background-color: #FF891D;
-}
-
-
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
