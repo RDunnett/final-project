@@ -11856,10 +11856,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+header img {
+  width: auto;
+  height: 150px;
+}
+
 .banner-rd img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+.navbar {
+  --bs-navbar-color: White;
+  --bs-navbar-hover-color: #000;
+  --bs-navbar-disabled-color: ;
+  --bs-navbar-active-color: ;
 }
 
 /*# sourceMappingURL=custom.css.map */

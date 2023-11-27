@@ -8,8 +8,9 @@ $dark:#000;
 $light:#fff;
 
 
-$headings-font-family: 'Gill Sans Nova Bold', sans-serif;
+$headings-font-family: 'Gill Sans Nova', sans-serif;
 $font-family-base: 'Gill Sans Nova', sans-serif; 
+$display-font-family: 'Gill Sans Nova', sans-serif;
 
 
 
@@ -20,8 +21,35 @@ $font-family-base: 'Gill Sans Nova', sans-serif;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+header img{
+    width: auto;
+    height: 150px;
+}
+
 .banner-rd img{
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.navbar{
+    --bs-navbar-color: White;
+    --bs-navbar-hover-color: #000;
+    --bs-navbar-disabled-color: ;
+    --bs-navbar-active-color:
+}
+
+
+
+.display-1{
+    font-family: 'Gill Sans Nova', sans-serif;
+}
+
+
+
+footer img{
+    justify-content: end;
+    width: auto;
+    height:50px;
 }
