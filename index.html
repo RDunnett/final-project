@@ -14,24 +14,24 @@
     </head>
     <body>
         <header class="bg-primary row">
-          <div class="d-flex container">
+          <div class="d-flex">
             <img src="/images/jm-logo.png" class="pe-5 ps-3 py-3 " alt="Jm Automotive Logo">
             <div class="row text-white">
               <p class="h1 fw-bolder">JM Automotive</p>
               <p class="h1 fw-bold">Honest work, for a fair price.</p>
             </div>
             <nav class="navbar navbar-expand-lg bg-primary">
-              <div class="container-fluid">
+              <div>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="about.html">About Us</a>
                       </li>
                     </ul>
                   </div>
@@ -41,13 +41,8 @@
         </header>
 
         <main>
-            <section id="hero"
-            style="
-                background-image: url(/images/car.jpg);
-                background-position: center center;
-                background-size: cover;
-                background-repeat: no-repeat;">
-            <div class="container py-5"> 
+            <section id="hero">
+            <div class=" py-5"> 
               <div class="d-flex justify-content-center align-items-center">
                 <div class="text-white text-center">
                   <h1 class=" hero-display display-1 fw-bolder">Welcome!</h1>
@@ -55,41 +50,34 @@
               </div>
             </div>
             </section>
-            <section class="main">
-              <div class="container row d-flex s-6">
+            <section class="main container">
+              <div class="row d-flex s-6">
                 <div class="col-lg-6 gx-5 py-3">
-                  <div class="carousel slide carousel-fade">
+                  <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/other-car.jpg" class="d-block w-100" alt="person Fixing A Car">
+                        <img src="/images/car-3.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="images/car-3.jpg" class="d-block w-100" alt="...">
+                        <img src="/images/car-4.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="images/car-4.jpg" class="d-block w-100" alt="...">
+                        <img src="/images/car.jpg" class="d-block w-100" alt="...">
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
                   <p class="py-2">Welcome to J.M. Automotive, where family values meet automotive expertise and where you get honest work, for a fair price. For over a decade, we have proudly served our community, offering comprehensive auto repair services for all vehicle makes and models.</p>
                   <p class="py-2">At J.M. Automotive, our dedicated team of licensed technicians combines personalized service with cutting-edge technology to ensure your vehicle runs at its best. Through strong partnerships with trusted suppliers, we secure quality parts at competitive prices, backed by a solid 1-year parts and labor warranty. Plus, our exclusive program provides roadside assistance with the purchase of AC Delco parts, enhancing your peace of mind on the road.</p>
-                </div>
-                <div class="col-lg-6 g-2">
-                  <p class="py-2">We believe in honest work and fair dealings, striving to build lasting relationships with our customers. Whether it's routine maintenance or complex repairs, count on J.M. Automotive for reliable service and a commitment to keeping your wheels turning smoothly.</p>
-                  <img src="images/other-car.jpg" class="img-fluid hero-image" alt="other-car">
-                  <h3 class="fw-bolder pt-3">Why book with us?</h3>
-                  <p class="pb-2">At J.M. Automotive, expect top-tier service backed by skilled technicians, cutting-edge tech, and fair pricing. With our 1-year warranty, your satisfaction is our priority. Schedule now for a smoother ride and reliable service. Drive confidently with J.M. Automotive.</p>
-                  <button type="button" class="btn btn-secondary"><a href="#" class="link-underline-opacity-0">Book An Appointment</a></button>
-                  <div>
-                    <p class="h2">Services</p>
+                  <div class="py-5">
+                    <p class="h2 fw-bolder">Services</p>
                     <p class="h3">Services we offer include, but are not limited to:</p>
                   <ul class="list-unstyled">
                     <li>M.O.T and Annual Inspections</li>
@@ -104,13 +92,22 @@
                   </ul>
                   </div>
                 </div>
+                <div class="col-lg-6 g-2">
+                  <p class="py-2">We believe in honest work and fair dealings, striving to build lasting relationships with our customers. Whether it's routine maintenance or complex repairs, count on J.M. Automotive for reliable service and a commitment to keeping your wheels turning smoothly.</p>
+                  <img src="images/other-car.jpg" class="img-fluid hero-image" alt="other-car">
+                  <h3 class="fw-bolder pt-3">Why book with us?</h3>
+                  <p class="pb-2">At J.M. Automotive, expect top-tier service backed by skilled technicians, cutting-edge tech, and fair pricing. With our 1-year warranty, your satisfaction is our priority. Schedule now for a smoother ride and reliable service. Drive confidently with J.M. Automotive.</p>
+                  <a href="#" class="btn btn-secondary w-button">Book An Appointment</a>
+                  <img src="/images/jm-location.webp" class="py-5 img-fluid" alt="Our Base of operations">
+                </div>
               </div>
             </section>
+            
         </main>
-        <footer>
-          <div class="bg-dark container-fluid d-flex">
+        <footer class="bg-dark">
+          <div class="container-fluid d-flex">
             <small class="text-white text-center justify-content-center align-items-center py-3">&copy;2023 R.E.D Studios, all rights reserved</small>
-            <img class="py-5 align-items-end" style="height: auto; width: 1rem;" src="images/facebook-icon.png" alt="facebook-icon">
+            <img class="align-items-end" style="height: auto; width: 1rem;" src="images/facebook-icon.png" alt="facebook-icon">
           </div>
         </footer>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

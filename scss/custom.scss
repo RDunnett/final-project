@@ -7,6 +7,8 @@ $secondary: #F46300;
 $dark:#000;
 $light:#fff;
 
+$btn-link-color: $light;
+
 
 $headings-font-family: 'Gill Sans Nova', sans-serif;
 $font-family-base: 'Gill Sans Nova', sans-serif; 
@@ -36,8 +38,7 @@ header img{
 .navbar{
     --bs-navbar-color: White;
     --bs-navbar-hover-color: #000;
-    --bs-navbar-disabled-color: ;
-    --bs-navbar-active-color:
+    align-items: flex-start ;
 }
 
 
@@ -45,15 +46,52 @@ header img{
 .display-1{
     font-family: 'Gill Sans Nova', sans-serif;
 }
-
-hero-display{
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+#hero{
+    background-image: url(/images/car.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+#about{
+    background-image: url(/images/car-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.hero-display{
+    text-shadow: 7px 7px 5px #000000;
+
+}
+
+.w-button{
+    color: $light;
+    transition: all .25s ease;
+}
+
+.w-button:hover {
+    background-color: $dark;
+    color: #fff;
+    border-color: #000;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+footer div{
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 footer img{
     justify-content: end;
     width: auto;
     height:50px;
+}
+
+footer small{
+    width: 100%;
 }
