@@ -11918,6 +11918,22 @@ header img {
   border-radius: 200px;
 }
 
+div h4, div .h4 {
+  font-variant: small-caps;
+}
+
+.contact-us li:nth-of-type(1)::before {
+  list-style-image: url(/icons/mail.png) !important;
+}
+
+.contact-us li:nth-of-type(2)::before {
+  list-style-image: url(/icons/Phone.png) !important;
+}
+
+.map li:nth-of-type(1) {
+  list-style-image: url(/icons/Gps.png);
+}
+
 footer div {
   flex-direction: column;
   align-items: flex-end;
