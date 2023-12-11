@@ -47,14 +47,14 @@ header img{
     font-family: 'Gill Sans Nova', sans-serif;
 }
 #hero{
-    background-image: url(/images/car.jpg);
+    background-image: url(images/car.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #about{
-    background-image: url(/images/car-4.jpg);
+    background-image: url(images/car-4.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,16 +85,16 @@ div h4{
     font-variant: small-caps;
 }
 .contact-us li:nth-of-type(1){
-    list-style-image: url(/icons/mail.png) !important;
+    list-style-image: url(icons/mail.png) !important;
     
 }
 
 .contact-us li:nth-of-type(2){
-    list-style-image: url(/icons/Phone.png) !important;
+    list-style-image: url(icons/Phone.png) !important;
 }
 
 .map li:nth-of-type(1){
-    list-style-image: url(/icons/Gps.png);
+    list-style-image: url(icons/Gps.png);
 }
 footer div{
     flex-direction: column;
